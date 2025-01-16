@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background.png'); /* Укажите правильный путь */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: rgb(246, 248, 245);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ccc; /* Обводка окна */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+    animation: pulse 2s infinite;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+/* Анимация пульсации */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+h1, h2 {
+    text-align: center;
+    color: #141515;
+}
+
+.date-group, .actions, .total-days {
+    margin-bottom: 20px;
+}
+
+.date-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.date-group label {
+    text-align: center;
+    display: block;
+}
+
+.date-group input[type="date"], button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    cursor: pointer;
+}
+
+.result-box {
+    padding: 10px 15px;
+    background: #47bfea;
+    border: 1px solid #90caf9;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.add-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.total-days {
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+}
+
+.total-days span {
+    display: inline-block;
+    background: #ffc107;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+.logo img {
+    max-width: 150px;
+    animation: pulse 2s infinite;
+}
+/* Анимация пульсации */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: rgb(12, 12, 223);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #e80a0a; /* Обводка окна */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
